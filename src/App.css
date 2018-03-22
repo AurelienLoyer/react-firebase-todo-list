@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.App-header {
+  background-color: #222;
+  height: auto;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-title {
+  margin: 0px;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.App-header button {
+  border: 2px white solid;
+  padding: 5px 20px;
+  background: #005dc1;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.user-profile img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 2px white solid;
+}
+
+.App-core {
+  display: flex;
+  justify-content: space-around;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
